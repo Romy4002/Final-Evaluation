@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="./css files/vid.css">
+    <script src="script_playlist.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+
+                <div id="mysidepanel" class="sidepanel">
+                    <a href="vid_courses.html">Back</a>
+                    <a onclick="coursefunc(web),headsfunc(wtxt)">Web-Development</a>
+                    <a onclick="coursefunc(python),headsfunc(ptxt)">Python</a>
+                    <a onclick="coursefunc(java),headsfunc(jtxt)">Javascript</a>
+                    <a onclick="coursefunc(boot),headsfunc(btxt)">Bootstrap</a>
+                </div>
+
+                <h1 id="allheads">Python Course</h1>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div id="fr">
+            <iframe id="myframe" src="https://www.youtube.com/embed/videoseries?si=M2g7NUP4g0WBZm7e&amp;list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 EduTutor. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

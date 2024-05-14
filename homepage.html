@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap/css/bootstrap-grid.min.css" type="text/css"
+    rel="stylesheet">
+    
+       
+</head>
+<body>
+    
+    <div id="main">
+        <div class="container-1st">
+            <!-- NAVIGATION BAR -->
+            <div style="display: flex;" id="top">
+                <h1 id="heading-text">EDU TUTOR</h1>
+                <div class="nav-bar-text"><p>Home</p></div>
+                <div class="nav-bar-text2"><p>Instructor</p></div>
+                <div class="nav-bar-text2"><p>Student</p></div>
+                <div class="nav-bar-text2"><a href="home.html">Courses</a></div>
+                <div class="nav-bar-text2"><p>Subjects</p></div>
+                <div class="signin-button"><a href="loginpage.html">SignIn</a></div>
+                <div class="signin-button"  style="margin-left: 2%;"><a href="signupPage.html">SignUp</a>
+                </div>
+            </div>
+        </div>
+            
+
+            <!--  -->
+            <div style="display: flex; " class="container-1st">
+                <div>
+                    <h1 style="color:grey; margin:50px;">The Leader in Online Learning</h1>
+                    <h1 style="font-size: 70px; margin:50px">Engaging &<br> Accessible Online<br> Courses For All</h1>
+                    <h2 style="margin:50px; margin-top:30px;color:grey;">Own your future learning new skills online</h2>
+                    <form><input type="search" id="search" placeholder="Search schools,online educational centres,etc"></form>
+                        
+                    
+                        
+                </div>
+
+                <div><img src="home img.png"></div>
+                
+            </div>
+        
+        
+        <div >
+            <h1 style="color:lightcoral;margin:50px;font-size: 40px;">Favourite Course</h1>
+            <p style="font-size: 40px;font-weight: 700;margin:50px">Top Category</p>
+            </div>
+            <!-- started bootstrap -->
+            <div class="row pics ">
+                <div class="col-md-3">
+                <img src="ad.png"><BR><h2>Angular Development</h2></div>
+
+                <div class="col-md-3">
+                <img src="pd.png"><br><h2>Python Development</h2></div>
+
+                <div class="col-md-3">
+                <img src="js.png"><br><h2>Js Frontend</h2></div>
+
+                <div class="col-md-3">
+                <img src="dd.png"><br><h2>Docker Development</h2></div>
+                </div>
+                
+            </div>
+            
+
+            <!-- <div class="row mt-5 p-5 course">
+                <div class="col-md-4">
+                    <img src="html.png">
+                    html
+                </div>
+                <div class="col-md-4">
+                    <img src="css.png">
+                    css
+                </div>
+                <div class="col-md-4">
+                    <img src="java.png">
+                </div>
+            </div> -->
+            <div class="row " >
+                <div class="col-md-6 stats">
+                <img src="share.png ">
+            </div> 
+            <div class="col-md-6 ">
+                <p class="mentor">Want to share your knowledge? Join us a Mentor</p>
+                    <p id="experienced">We are open-minded, dedicated, and committed to making the most of this mentorship relationship,
+                        and we are excited about the potential for mutual growth and success that it can bring. 
+                        If you are an experienced mentor willing to share your knowledge and support our aspirations,
+                        we would be grateful for the opportunity to connect and learn from you."</p>
+                        <h1 style="margin-top: 20px;">Best Courses</h1>
+                        <h1 style="margin-top: 20px;">Top rated Instructors</h1>
+        </div>
+        <div class="row bg">
+            <div class="col-md-3 m-1">
+            <p style="font-size: 50px;color:blue;"> EduTutor</p>
+            Online classes have existed in our society for some time now, 
+                The online classes were very helpful to all students, teachers, and institutions. 
+            They are also beneficial to students who wish to pursue long-distance courses
+
+
+            </div>
+            <div class="col-md-3">
+            <h1> For Instructor</h1>
+            <br class="space"> Profile
+            <br class="space"> Login
+            <br class="space"> Instructor
+            <br class="space"> Register
+            <br style="margin-top: 10px;"> Dashboard 
+            <!-- dashboard space -->
+            </div>
+            <div class="col-md-3">
+                <h1> For Students</h1>
+                <br class="space"> Profile
+                <br class="space"> Login
+                <br class="space"> Instructor
+                <br class="space"> Register
+                <br class="space">Dashboard
+            </div>
+        <div class="col-md-3">
+    
+        </div>
+        </div>
+
+        <button type="button" onclick="topfunction()" id="top_button">&#9757;</button>
+    </div>
+
+       
+        
+
+        
+           
+    
+    
+<script>
+// TOP BUTTON SCRIPT
+let top_button=document.getElementById('top_button');
+    window.onscroll=function(){
+        scroll();
+    }
+    function scroll(){
+        if (document.documentElement.scrollTop>500|document.body.scrollTop>500){
+            top_button.style.display='block'
+        }
+        else{
+            top_button.style.display='none'
+        }
+        
+    }
+    function topfunction(){
+        document.body.scrollTop=0;
+        document.documentElement.scrollTop=0;
+    }
+
+</script>
+    
+    
+
+</body>
+</html>

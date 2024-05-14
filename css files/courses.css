@@ -1,0 +1,154 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #232D3F;
+}
+
+header {
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header h1 {
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    margin-left: 20px;
+    cursor: default;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #005B41;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 24px;
+    transition: color 750ms,padding 250ms;
+}
+
+nav a:hover {
+    color: #666;
+    color: black;
+    background: #008170;
+    border-radius: 60px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 18px 25px;
+}
+
+main {
+    color: white;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #005B41;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.course {
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #005B41;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    cursor: default;
+}
+
+.course:hover {
+    background: #008170;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.course:hover img{
+    max-width: 70%;
+    height: auto;
+}
+
+.course-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.course-details {
+    flex: 2;
+}
+
+.course img {
+    max-width: 60%;
+    height: auto;
+    transition: max-width 750ms;
+}
+
+.course img:hover {
+    max-width: 70%;
+    height: auto;
+}
+    
+
+.course h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: azure;
+}
+
+.course p {
+    margin-top: 10px;
+    color: beige;
+}
+
+.course a {
+    display: inline-block;
+    background-color: #116530;
+    color: beige;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 24px;
+    transition: color 500ms,padding 250ms;
+}
+
+.course a:hover {
+    color: whitesmoke;
+    background: #005B41;
+    border-radius: 60px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 18px 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #232D3F;
+    color: white;
+    cursor: default;
+}
